@@ -1,0 +1,555 @@
+/* common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+a{
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+ul, li{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    line-height: 0.8;
+}
+/* common css end  */
+
+
+/* navbar css start  */
+.navbar.navbar-expand-lg{
+    padding: 46px 0;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    width: 100%;
+}
+.navbar-nav{
+    margin-left: 98px;
+}
+.navbar-brand{
+    margin-right: 0 !important;
+}
+.navbar-nav .nav-item{
+    margin-right: 46px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #6A4DF4;
+    transition: all linear 0.5s;
+}
+.navbar-nav .nav-item:last-child{
+    margin-right: 0 !important;
+}
+.navbar-btn a{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* navbar css end  */
+
+
+/* banner css start  */
+#banner{
+    position: relative;
+}
+.banner-text.row {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 999;
+	margin-top: 22px;
+}
+.banner-item img{
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+.banner-item{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+.banner-text{
+    color: #fff;
+    z-index: 5;
+}
+.banner-text h1 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 54px;
+	color: #fff;
+	text-transform: capitalize;
+	margin: 0 -184px 24px;
+	line-height: 130%;
+}
+.banner-text p {
+    font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px !important;
+	margin: 44px -110px 0;
+}
+.banner-btn{
+    margin-top: 40px;
+}
+.banner-btn button{
+    padding: 15px 42px;
+    background-color: #6A4DF4;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    transition: all linear 0.5s;
+    border-style: none;
+}
+.slick-dots{
+    position: absolute;
+    bottom: 50px;
+    left: 48%;
+    transform: translateX(-50%)
+}
+.slick-dots li{
+    display: inline-block;
+    margin: 0 1px;
+    width: 16px;
+    height: 16px;
+    background: #6A4DF4;
+    border-radius: 50%;
+}
+.slick-dots li button{
+    color: transparent;
+    background: #6A4DF4;
+    width: 16px;
+    height: 16px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    opacity: 0;
+}
+.slick-dots li.slick-active button{
+    opacity: 1;
+}
+/* banner css end  */
+
+
+/* counterup css start  */
+#counterup{
+    margin-top: 141px;
+}
+.counterup-part{
+    padding: 86px 0;
+    background: #E0FFF9;
+    border-radius: 30px;
+}
+.counterup-text{
+    padding-left: 50px !important;
+    font-family: 'Inter', sans-serif;
+    margin-right: 135px !important;
+}
+.counterup-text h5{
+    font-weight: 500;
+    font-size: 25px;
+    color: #6A4DF4;
+}
+.counterup-text h3{
+    width: 110%;
+    font-weight: 600;
+    font-size: 35px;
+}
+.counterup-wrapper{
+    display: flex;
+}
+.counter-sec{
+    font-size: 30px;
+    font-weight: 700;
+}
+.counterup-main{
+    padding-top: 25px;
+    font-family: 'Inter', sans-serif;
+}
+.counterup-main h2{
+    font-weight: 700;
+    font-size: 42px;
+}
+.counterup-main p{
+    font-weight: 500;
+    font-size: 15px;
+}
+/* counterup css end  */
+
+
+/* services css start  */
+#services{
+    padding: 102px 0;
+}
+.common-text h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.common-text p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-left: -41px;
+    margin-right: -41px;
+}
+.services-column{
+    margin-top: 50px;
+    padding: 46px 0;
+    background: transparent;
+}
+.services-column:hover{
+    padding: 46px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all linear 0.5s;
+}
+.services-text{
+    margin-top: 30px;
+}
+.services-text h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.services-text p {
+	font-family: 'Inter', sans-serif;
+	margin-top: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* services css end  */
+
+
+/* recent css start  */
+#recent{
+    padding: 132px 0;
+    background: #F3F3F3;
+}
+.recent-part{
+    padding-top: 64px;
+}
+.recent-column {
+	background: #fff;
+	padding: 0 0 8px;
+	border-radius: 32px;
+	margin-top: 24px;
+}
+.recent-img img{
+    width: 100%;
+    height: 100%;
+}
+.recent-text h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 26px;
+}
+.recent-text p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 10px;
+    line-height: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #7B7B7B;
+}
+/* recent css end  */
+
+
+/* choose css start  */
+#choose{
+    padding: 120px 0;
+}
+.choose-part{
+    padding-top: 80px;
+}
+.choose-column{
+    padding: 4px 0;
+}
+.choose-text h4{
+    padding-top: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.choose-text p{
+    padding-top: 1px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.choose-main img{
+    width: 100%;
+    height: 100%;
+}
+/* choose css end  */
+
+
+/* review css start  */
+#review{
+    position: relative;
+    margin-bottom: 140px;
+}
+.review-slider{
+    padding: 42px 10px 0;
+}
+.review-profile{
+    display: flex;
+}
+.icon-left{
+    position: absolute;
+    top: 65%;
+    left: 0;
+    transform: translateY(-35%);
+    width: 50px;
+    height: 50px;
+    background: #6A4DF4;
+    color: #fff;
+    border: 3px solid #6A4DF4;
+    border-radius: 50%;
+    line-height: 44px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.icon-left:hover{
+    background: transparent;
+    color: #6A4DF4;
+    transition: all linear 0.5s;
+}
+.icon-right{
+    position: absolute;
+    top: 65%;
+    right: 0;
+    transform: translateY(-35%);
+    width: 50px;
+    height: 50px;
+    background: #6A4DF4;
+    color: #fff;
+    border: 3px solid #6A4DF4;
+    border-radius: 50%;
+    line-height: 44px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.icon-right:hover{
+    background: transparent;
+    color: #6A4DF4;
+    transition: all linear 0.5s;
+}
+.review-item{
+    padding: 54px 58px;
+}
+.review-text p{
+    padding: 22px 0 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.review-profile{
+    padding-top: 24px;
+}
+.review-img img{
+    padding-right: 16px;
+}
+.review-star i{
+    color: #F9BD2C;
+}
+.review-name h5{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.review-name p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.slick-active.slick-center{
+    background: #F4EFEF;
+    border-radius: 30px;
+    transition: all linear 0.5s;
+}
+/* review css end  */
+
+
+/* form css start  */
+#form-part{
+    padding: 150px 0;
+    background: #F3F3F3;
+}
+.form-text {
+	padding: 180px 48px;
+}
+.form-text h2 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 45px;
+	padding-bottom: 20px;
+    color: #000;
+}
+.form-text p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.form-main{
+    padding: 62px 0;
+    background: #fff;
+    border-radius: 30px;
+    text-align: center;
+}
+.reg-title h1{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.form-field h3{
+    margin-left: 42px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 18px;
+}
+.form-field input {
+	padding: 32px 0;
+	padding-right: 174px;
+	padding-left: 44px;
+	border: 1px solid #5b5a5a;
+	border-radius: 20px;
+    margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.form-button{
+    margin-top: 20px;
+}
+.form-button button{
+    padding: 20px 144px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #6A4DF4;
+    border: none;
+    border-radius: 20px;
+}
+.msg_err{
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    text-transform: initial;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#username_err{
+    margin-bottom: 10px;
+}
+#email_err{
+    margin-bottom: 10px;
+}
+#phone_err{
+    line-height: 22px;
+}
+/* form css end  */
+
+
+/* footer css start  */
+#footer{
+    padding: 90px 0 18px;
+}
+.footer-main-text p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 30px;
+    padding-right: 30px;
+    color: #7B7B7B;
+}
+.footer-main{
+    padding-right: 48px !important;
+}
+.footer-title h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.footer-detail{
+    padding-top: 40px;
+}
+.footer-detail p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.footer-detail p a{
+    color: #7B7B7B;
+}
+.footer-detail h6{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #7B7B7B;
+}
+.footer-decor{
+    width: 1110px;
+    height: 1px;
+    margin-top: 40px;
+    background: #E8E8E8;
+}
+.footer-bottom{
+    margin-top: 33px;
+}
+.footer-bottom p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D0D0D0;
+}
+/* footer css end  */
