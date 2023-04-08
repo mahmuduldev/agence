@@ -538,7 +538,7 @@ h1, h2, h3, h4, h5, h6, p{
     color: #7B7B7B;
 }
 .footer-decor{
-    width: 1110px;
+    width: 100%;
     height: 1px;
     margin-top: 40px;
     background: #E8E8E8;
