@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 30px;
 }
 .form-field h3{
-    margin-left: 42px;
+    margin-left: 80px;
     margin-bottom: 20px;
     text-align: left;
     font-family: 'Inter', sans-serif;
@@ -454,7 +454,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .form-field input {
 	padding: 32px 0;
-	padding-right: 174px;
+	padding-right: 92px;
 	padding-left: 44px;
 	border: 1px solid #5b5a5a;
 	border-radius: 20px;
@@ -468,7 +468,7 @@ h1, h2, h3, h4, h5, h6, p{
     margin-top: 20px;
 }
 .form-button button{
-    padding: 20px 144px;
+    padding: 20px 102px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 20px;
